@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Helo(){
-    return(
-        <h1>Heloo Pankaj </h1>
-    );
+class Helo extends React.Component
+{
+    render()
+    {
+        return(
+            <h1>Helo {this.props.name}</h1>
+        )
+    }
 }
 
 export default Helo

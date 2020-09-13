@@ -1,0 +1,26 @@
+.name{
+    z-index: 2;
+    color: black;
+    position: absolute;
+    top: 53%;
+    left: 40%;
+}
+
+
+.name-style{
+    color: whitesmoke;
+}
+
+.imageLogo{
+    z-index: 3;
+    position: absolute;
+    top : 25%;
+    left :  40%
+}
+
+.circle-image{
+    object-fit: cover;
+    border-radius: 80%;
+    height: 225px;
+    width: 225px;
+}
