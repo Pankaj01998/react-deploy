@@ -16,6 +16,7 @@ function Name()
 
                 <div className = "name">
                     <h1 className = "name-style">Pankaj Katkar</h1>
+                    <h2 className = "name-style">Data Analyst</h2>
                 </div>
             </div>
         )
