@@ -1,9 +1,8 @@
 .name{
     z-index: 2;
-    color: black;
-    position: absolute;
+    /* position: absolute;
     top: 53%;
-    left: 40%;
+    left: 40%; */
 }
 
 
@@ -11,14 +10,17 @@
     color: whitesmoke;
 }
 
-.imageLogo{
-    z-index: 3;
+
+.positioning{
     position: absolute;
-    top : 25%;
-    left :  40%
+    top: 22%;
+    left: 40%;
+
 }
 
 .circle-image{
+    z-index: 3;
+    position: relative;
     object-fit: cover;
     border-radius: 80%;
     height: 225px;

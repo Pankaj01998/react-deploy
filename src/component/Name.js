@@ -9,9 +9,9 @@ function Name()
     render()
     {
         return(
-            <div>
+            <div class = "positioning">
                 <div >
-                    <img src = {pic} className = "circle-image imageLogo"/>
+                    <img src = {pic} className = "circle-image"/>
                 </div>
 
                 <div className = "name">
